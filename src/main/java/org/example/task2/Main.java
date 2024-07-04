@@ -9,6 +9,11 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+        /**
+         *
+         * @param args ввод параметров берётся как args[0] и args[1] аналогично остальным заданиям.
+         *             Пожалуйста объясните, что конкректно не удовлетворяет условию задания?
+         */
         Circle circle = getCircle(args[0]); // src/main/java/org/example/task2/circle.txt
         if (circle == null) {
             return;

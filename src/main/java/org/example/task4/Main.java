@@ -11,6 +11,11 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
+        /**
+         *
+         * @param args ввод параметров берётся как args[0] и args[1] аналогично остальным заданиям.
+         *             Пожалуйста объясните, что конкректно не удовлетворяет условию задания?
+         */
         String path = args[0]; // src/main/java/org/example/task4/numbers.txt
         List<Integer> elements = getElements(path);
         if (!elements.isEmpty()) {
